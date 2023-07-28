@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  font-family: 'Robot','sans sherif';
+
+}
+h1{
+  width: 10%;
+  height: 10%;
+  border: radius 10px; ;
+  background-color: darkmagenta;
+  color: #000;
+}
+form{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 10%;
+  min-width: 300px;
+}
+form.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+} 
+form.input input[type="email"],[type="password"]{
+  padding:15px ;
+  border-radius: 5px;
+  border: none;
+  background-color: cadetblue;
+  margin-bottom: 15px;
+  outline: none;
+
+}  
+
+form button{
+    border-radius: 15%;
+    background-color :blue;
+    color: white;
+    display:flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    left: 0;
+    cursor: pointer;
+}
